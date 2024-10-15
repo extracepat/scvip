@@ -22,8 +22,8 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID="6880324948"
-KEY="7269775241:AAFUUm31ptflW1Lb4FK0WYEiHi9q13wsyXY"
+CHATID="-1002477177735"
+KEY="7931080278:AAFdaVMfn87DHMovnPQVSdhQbN315vME0rQ"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
 export IP=$( curl -sS icanhazip.com )
@@ -31,7 +31,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "\033[96;1m              WELCOME TO SRICPT BY JURAGAN HC           \033[0m"
+echo -e "\033[96;1m              WELCOME TO SRICPT NF TUNNEL          \033[0m"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 3
@@ -246,7 +246,7 @@ clear
 echo ""
 echo ""
 echo -e "   \e[1;36m_______________________________$NC"
-echo -e "   \e[1;32m      CHANGES DOMAIN $NC"
+echo -e "   \e[1;32m     INPUT DOMAIN $NC"
 echo -e "   \e[1;36m_______________________________$NC"
 echo -e ""
 read -p "   INPUT YOUR DOMAIN :   " host1
@@ -277,7 +277,7 @@ EXPSC=$(wget -qO- ${izinsc} | grep $ipsaya | awk '{print $3}')
 TIMEZONE=$(printf '%(%H:%M:%S)T')
 TEXT="
 <code>────────────────────</code>
-<b> 🟢 NOTIFICATIONS INSTALL 🟢</b>
+<b> ⚠️ NOTIFICATIONS INSTALL ⚠️</b>
 <code>────────────────────</code>
 <code>ID     : </code><code>$USRSC</code>
 <code>Domain : </code><code>$domain</code>
@@ -286,8 +286,8 @@ TEXT="
 <code>Ip vps : </code><code>$ipsaya</code>
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>────────────────────</code>
-<i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/"},{"text":"Contack","url":"https://wa.me/"}]]}'
+<i>ᴀᴜᴛᴏᴍᴀᴛɪᴄ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ ғʀᴏᴍ ɢɪᴛʜᴜʙ ɴғ ᴛᴜɴɴᴇʟ</i>
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/ceria_shop"},{"text":"ᴄʜᴀɴɴᴇʟ","url":"t.me/channel_pasar_vpn"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
@@ -742,7 +742,7 @@ systemctl start udp-custom &>/dev/null
 
 echo enable service udp-custom
 systemctl enable udp-custom &>/dev/null
-print_success "UDP-CUSTOM BY JURAGAN_HC"
+print_success "UDP-CUSTOM BY NF TUNNEL"
 clear
 print_install "MEMASANG NOOBZVPNS"
 cd
@@ -757,7 +757,7 @@ systemctl start noobzvpns &>/dev/null
 
 echo enable service noobzvpns
 systemctl enable noobzvpns &>/dev/null
-print_success "NOOBZVPNS BY KIZARU STORE VPN"
+print_success "NOOBZVPNS NF TUNNEL"
 }
 function ins_restart(){
 clear
@@ -796,7 +796,7 @@ function menu(){
 clear
 print_install "Memasang Menu Packet"
 wget ${REPO}Cdy/menu.zip
-7z x -pHeyHeyMauDecryptYaAwokawok menu.zip
+7z x -pHeyHey menu.zip
 chmod +x menu/*
 mv menu/* /usr/local/sbin
 rm -rf menu
@@ -964,8 +964,19 @@ echo -e "\033[96m==========================\033[0m"
 echo -e "\033[92m      INSTALL SUCCES      \033[0m"
 echo -e "\033[96m==========================\033[0m"
 echo -e ""
-sleep 2
+sleep 3
 clear
+echo -e "\033[96m==========================\033[0m"
+echo -e "\033[92m      TERIMA KASIH TELAH MENGGUNAKAN    \033[0m"
+echo -e "\033[96m==========================\033[0m"
+sleep 3
+clear
+echo -e "\033[96m==========================\033[0m"
+echo -e "\033[92m      JIKA MENEMUKAN BUG REPORT \033[0m"
+echo -e "\033[92m      LANGSUNG KE OWNER NF TUNNEL \033[0m"
+echo -e "\033[92m      CONTACT OWNER t.me/ceria_shop\033[0m"
+echo -e "\033[96m==========================\033[0m"
+sleep 4
 echo -e "\033[93;1m Wait inn 4 sec...\033[0m"
 sleep 4
 clear
