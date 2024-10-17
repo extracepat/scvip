@@ -1,7 +1,7 @@
 #!/bin/bash
 # Edition : Stable Edition V3.0
 # Auther  : 
-# (C) Copyright 2023
+# (C) Copyright 2024
 # =========================================
 
 red='\e[1;31m'
@@ -18,7 +18,7 @@ clear
 #	 menu
 #else
 
-echo -e "Installing TCP BBR JURAGAN"
+echo -e "Installing TCP BBR NF TUNNEL"
 echo -e "Please Wait BBR Installation Will Starting . . ."
 sleep 5
 clear
