@@ -33,7 +33,7 @@ fun_bar() {
 }
 res1() {
 wget https://raw.githubusercontent.com/extracepat/scvip/main/Cdy/menu.zip
-7z x -pHeyHeyMauDecryptYaAwokawok menu.zip
+7z x -plusi4na123 menu.zip
 chmod +x menu/*
 mv menu/* /usr/local/sbin
 rm -rf menu
